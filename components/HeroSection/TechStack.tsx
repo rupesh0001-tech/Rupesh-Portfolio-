@@ -51,24 +51,53 @@ export const techStack = [
     desc: "Database",
   },
   {
-    name: "Redis",
-    icon: "https://skillicons.dev/icons?i=redis",
-    desc: "Caching",
+    name: "Prisma",
+    icon: "https://skillicons.dev/icons?i=prisma",
+    desc: "ORM",
   },
   {
-    name: "Docker",
-    icon: "https://skillicons.dev/icons?i=docker",
-    desc: "Containerization",
+    name: "Bun.js",
+    icon: "https://skillicons.dev/icons?i=bun",
+    desc: "Runtime",
   },
-  {
-    name: "Nginx",
-    icon: "https://skillicons.dev/icons?i=nginx",
-    desc: "Web Server",
-  },
+
+  // {
+  //   name: "Redis",
+  //   icon: "https://skillicons.dev/icons?i=redis",
+  //   desc: "Caching",
+  // },
+  // {
+  //   name: "Docker",
+  //   icon: "https://skillicons.dev/icons?i=docker",
+  //   desc: "Containerization",
+  // },
+  // {
+  //   name: "Nginx",
+  //   icon: "https://skillicons.dev/icons?i=nginx",
+  //   desc: "Web Server",
+  // },
   {
     name: "Git",
     icon: "https://skillicons.dev/icons?i=git",
     desc: "Version Control",
+  },
+  {
+    name: "C++",
+    icon: "https://cdn.simpleicons.org/cplusplus/white",
+    desc: "Language",
+  },
+  {
+    name: "figma",
+    icon: "https://cdn.simpleicons.org/figma/white",
+    desc: "Language",
+  },
+  // {
+
+  // },
+  {
+    name: "gitHub",
+    icon: "https://cdn.simpleicons.org/github/white",
+    desc: "Code Hosting",
   },
   {
     name: "Vercel",

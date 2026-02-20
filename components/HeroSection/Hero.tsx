@@ -2,8 +2,6 @@ import ProfileAvatar from "./avatar-standard-4";
 import GetInTouch from "./GetInTouch";
 import Intro from "./Intro";
 import SocialLinks from "./SocialLinks";
-import SongActivity from "./SongActivity";
-import { PersonalInfo, Stats } from "./Stats";
 import TechStack from "./TechStack";
 
 const Hero = () => {
@@ -18,12 +16,6 @@ const Hero = () => {
       <GetInTouch />
 
       <SocialLinks />
-
-      <SongActivity />
-
-      <Stats />
-
-      <PersonalInfo />
 
       <hr className="mt-15" />
 

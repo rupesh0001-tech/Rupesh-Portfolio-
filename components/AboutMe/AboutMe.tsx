@@ -2,13 +2,19 @@ import Image from "next/image";
 
 const skills = [
   { src: "https://skillicons.dev/icons?i=react", alt: "React" },
+  { src: "https://skillicons.dev/icons?i=nextjs", alt: "Next.js" },
   { src: "https://skillicons.dev/icons?i=js", alt: "JavaScript" },
   { src: "https://skillicons.dev/icons?i=ts", alt: "TypeScript" },
-  { src: "https://skillicons.dev/icons?i=mongodb", alt: "MongoDB" },
   { src: "https://skillicons.dev/icons?i=nodejs", alt: "Node.js" },
-  { src: "https://skillicons.dev/icons?i=nextjs", alt: "Next.js" },
+  { src: "https://skillicons.dev/icons?i=bun", alt: "Bun.js" },
+  { src: "https://skillicons.dev/icons?i=mongodb", alt: "MongoDB" },
   { src: "https://skillicons.dev/icons?i=postgres", alt: "PostgreSQL" },
-  { src: "https://skillicons.dev/icons?i=vercel", alt: "Vercel" },
+  { src: "https://skillicons.dev/icons?i=prisma", alt: "Prisma" },
+  { src: "https://skillicons.dev/icons?i=tailwind", alt: "Tailwind CSS" },
+  { src: "https://skillicons.dev/icons?i=cpp", alt: "C++" },
+  { src: "https://skillicons.dev/icons?i=java", alt: "Java" },
+  { src: "https://skillicons.dev/icons?i=python", alt: "Python" },
+  { src: "https://skillicons.dev/icons?i=git", alt: "Git" },
 ];
 
 const AboutMe = () => {
@@ -22,8 +28,8 @@ const AboutMe = () => {
         <div className="shrink-0">
           <div className="flex h-55 w-55 items-center justify-center overflow-hidden rounded-2xl bg-sky-200 dark:bg-amber-300">
             <Image
-              src="https://res.cloudinary.com/dw87upoot/image/upload/v1763497871/Gemini_Generated_Image_2_Background_Removed_tkozqp.png"
-              alt="Arman Thakur Avatar"
+              src="Logo.png"
+              alt="Rupesh Jagtap Avatar"
               width={220}
               height={220}
               className="h-full w-full object-contain"
@@ -32,11 +38,12 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="min-w-0 flex-1">
-          <h2 className="mb-2 text-3xl font-bold md:text-4xl">Arman Thakur</h2>
+          <h2 className="mb-2 text-3xl font-bold md:text-4xl">Rupesh Jagtap</h2>
           <p className="mb-4 text-base">
-            I&apos;m a Full Stack web developer passionate about building
-            scalable SaaS and AI-powered applications. I love solving real-world
-            problems and crafting seamless user experiences.
+            I&apos;m a Computer Engineering student passionate about building
+            full-stack web applications and exploring AI-powered solutions.
+            Based in Pune, Maharashtra, I specialize in creating scalable,
+            user-friendly web applications with strong foundations in DSA.
           </p>
           <div>
             <span className="text-sm font-semibold">Skills</span>

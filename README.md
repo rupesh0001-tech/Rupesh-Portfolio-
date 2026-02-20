@@ -2,14 +2,14 @@
   <img src="public/Logo.webp" alt="Portfolio Logo" width="80" height="80" />
 </p>
 
-<h1 align="center">Arman Thakur - Developer Portfolio</h1>
+<h1 align="center">Rupesh Jagtap - Developer Portfolio</h1>
 
 <p align="center">
   <strong>A modern, responsive portfolio built with Next.js 16, React 19, and TailwindCSS 4</strong>
 </p>
 
 <p align="center">
-  <a href="https://armandev.space">Live Demo</a> •
+  <a href="https://rupeshjagtap.com">Live Demo</a> •
   <a href="#features">Features</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#getting-started">Getting Started</a> •
@@ -200,7 +200,7 @@ next_portfolio/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/kaihere14/next_portfolio.git
+   git clone https://github.com/rupesh0001-tech/next_portfolio.git
    cd next_portfolio
    ```
 
@@ -336,7 +336,7 @@ The easiest way to deploy is using [Vercel](https://vercel.com):
 3. Add environment variables
 4. Deploy!
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kaihere14/next_portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rupesh0001-tech/next_portfolio)
 
 ### Other Platforms
 
@@ -351,10 +351,10 @@ This portfolio can be deployed on any platform that supports Next.js:
 
 ## 📄 Environment Variables
 
-| Variable               | Required | Description                                             |
-| ---------------------- | -------- | ------------------------------------------------------- |
-| `GITHUB_PATH`          | Yes      | GitHub Personal Access Token for GraphQL API            |
-| `NEXT_PUBLIC_SITE_URL` | No       | Site URL for SEO (defaults to `https://armandev.space`) |
+| Variable               | Required | Description                                               |
+| ---------------------- | -------- | --------------------------------------------------------- |
+| `GITHUB_PATH`          | Yes      | GitHub Personal Access Token for GraphQL API              |
+| `NEXT_PUBLIC_SITE_URL` | No       | Site URL for SEO (defaults to `https://rupeshjagtap.com`) |
 
 ---
 
@@ -378,16 +378,16 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-**Arman Thakur** - Full Stack Developer
+**Rupesh Jagtap** - Full Stack Developer
 
-- 🌐 Website: [armandev.space](https://armandev.space)
-- 📧 Email: [armanthakur200814@gmail.com](mailto:armanthakur200814@gmail.com)
-- 💼 LinkedIn: [Arman Thakur](https://www.linkedin.com/in/arman-thakur-303b47367/)
-- 🐦 Twitter/X: [@armankiyotaka](https://x.com/armankiyotaka)
-- 🐙 GitHub: [@kaihere14](https://github.com/kaihere14)
+- 🌐 Website: [rupeshjagtap.com](https://rupeshjagtap.com)
+- 📧 Email: [rupeshjagtap157@gmail.com](mailto:rupeshjagtap157@gmail.com)
+- 💼 LinkedIn: [Rupesh Jagtap](https://www.linkedin.com/in/rupeshjagtap)
+- 🐦 Twitter/X: [@rupesh248000](https://x.com/rupesh248000)
+- 🐙 GitHub: [@rupesh0001-tech](https://github.com/rupesh0001-tech)
 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/kaihere14">Arman Thakur</a>
+  Made with ❤️ by <a href="https://github.com/rupesh0001-tech">Rupesh Jagtap</a>
 </p>

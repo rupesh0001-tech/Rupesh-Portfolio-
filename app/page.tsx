@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 
 import AboutMe from "@/components/AboutMe/AboutMe";
-import Achievments from "@/components/Achievments/Achievments";
 import Experience from "@/components/Experience/Experience";
 import Footer from "@/components/Footer/Footer";
 import FooterBlur from "@/components/Footer/FooterBlur";
@@ -10,12 +9,12 @@ import Hero from "@/components/HeroSection/Hero";
 import Projects from "@/components/Projects/Projects";
 import FadeIn from "@/components/ui/FadeIn";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://armandev.space"; // Replace with your actual domain
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://rupeshhh.in";
 
 export const metadata: Metadata = {
-  title: "Arman Thakur | Full Stack Developer & Web Engineer Portfolio",
+  title: "Rupesh Jagtap | Full Stack Developer & Web Engineer Portfolio",
   description:
-    "Full Stack Developer specializing in React, Next.js, TypeScript & Node.js. Building scalable web apps with clean UI and great user experience.",
+    "Full Stack Developer skilled in Fullstack dev with strong foundations in DSA and building scalable, user-friendly web applications.",
   keywords: [
     "Full Stack Developer",
     "Web Developer",
@@ -24,10 +23,12 @@ export const metadata: Metadata = {
     "TypeScript",
     "Node.js",
     "Portfolio",
-    "Arman Thakur",
+    "Rupesh Jagtap",
+    "Bun.js",
+    "Hono",
   ],
-  authors: [{ name: "Arman Thakur" }],
-  creator: "Arman Thakur",
+  authors: [{ name: "Rupesh Jagtap" }],
+  creator: "Rupesh Jagtap",
   metadataBase: new URL(baseUrl),
   alternates: {
     canonical: "/",
@@ -36,16 +37,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: baseUrl,
-    title: "Arman Thakur | Full Stack Developer & Web Engineer Portfolio",
+    title: "Rupesh Jagtap | Full Stack Developer & Web Engineer Portfolio",
     description:
-      "Full Stack Developer specializing in React, Next.js, TypeScript & Node.js. Building scalable web apps with clean UI and great user experience.",
-    siteName: "Arman Thakur Portfolio",
+      "Full Stack Developer skilled in Fullstack dev with strong foundations in DSA and building scalable, user-friendly web applications.",
+    siteName: "Rupesh Jagtap Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arman Thakur | Full Stack Developer & Web Engineer Portfolio",
+    title: "Rupesh Jagtap | Full Stack Developer & Web Engineer Portfolio",
     description:
-      "Full Stack Developer specializing in React, Next.js, TypeScript & Node.js. Building scalable web apps with clean UI and great user experience.",
+      "Full Stack Developer skilled in Fullstack dev with strong foundations in DSA and building scalable, user-friendly web applications.",
   },
   robots: {
     index: true,
@@ -77,9 +78,6 @@ const page = () => {
       </FadeIn>
       <FadeIn>
         <GitHub />
-      </FadeIn>
-      <FadeIn>
-        <Achievments />
       </FadeIn>
       <FadeIn>
         <Footer />

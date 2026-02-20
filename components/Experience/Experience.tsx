@@ -3,10 +3,10 @@ import { Briefcase, Calendar, ChevronRight } from "lucide-react";
 const experiences = [
   {
     role: "Full-Stack Developer",
-    company: "Personal Projects & Freelance",
-    period: "2025 - Present",
+    company: "COOLCLIQ",
+    period: "2026 - Present",
     highlights: [
-      "Built and deployed multiple full-stack web applications on VPS and cloud platforms",
+      "Built and deployed multiple full-stack web applications on AWS and cloud platforms",
       "Implemented JWT-based authentication with access & refresh tokens and role-based flows",
       "Integrated payments, email services, caching, and secure API workflows in production",
       "Designed scalable backend architectures with Redis caching and async job handling",

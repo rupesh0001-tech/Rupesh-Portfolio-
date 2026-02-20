@@ -2,7 +2,7 @@ import React from "react";
 
 import Link from "next/link";
 
-import { Github, Globe } from "lucide-react";
+import { Globe } from "lucide-react";
 
 const ProjectsButton = ({
   githubLink,
@@ -20,15 +20,6 @@ const ProjectsButton = ({
         className={`text-neutral-500 transition-colors hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300`}
       >
         <Globe size={18} />
-      </Link>
-
-      <Link
-        href={githubLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={`text-neutral-500 transition-colors hover:text-neutral-600 dark:text-neutral-400 dark:hover:text-neutral-300`}
-      >
-        <Github size={18} />
       </Link>
     </div>
   );

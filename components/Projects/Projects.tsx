@@ -18,88 +18,52 @@ export type ProjectType = {
 
 const projects: ProjectType[] = [
   {
-    id: "daemon-doc",
-    name: "DaemonDoc",
-    tagline: "AI README Generator",
+    id: "resume-builder",
+    name: "Resume Builder",
+    tagline: "Professional Resume Creator",
     description:
-      "AI-powered platform that automatically generates and keeps GitHub READMEs in sync using webhooks, background workers, and large language models.",
-    image: "/demon_doc.webp",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Redis", "BullMQ"],
+      "A comprehensive online platform for creating professional, ATS-friendly resumes with customizable templates and real-time preview.",
+    image: "/resume_builder.png",
+    tech: ["React", "node", "javascript", "Tailwind CSS"],
     status: "All Systems Operational",
-    link: "https://www.daemondoc.online",
-    githubLink: "https://github.com/kaihere14/daemondoc",
+    link: "https://resume-builder-delta-black-55.vercel.app/",
+    githubLink: "#",
   },
   {
-    id: "nova-drive",
-    name: "NovaDrive",
-    tagline: "Cloud Storage Platform",
+    id: "boomzo",
+    name: "Boomzo",
+    tagline: "Digital Solutions Platform",
     description:
-      "A next-generation cloud storage platform with chunked uploads, secure file handling, and AI-powered organization.",
-    image: "/nova_drive.webp",
-    tech: ["React.js", "Node.js", "MongoDB", "Cloudflare R2"],
+      "A modern web application providing innovative digital solutions for businesses, featuring responsive design and seamless user experience.",
+    image: "/boomzo.png",
+    tech: ["React", "Node.js", "MongoDB", "Express"],
     status: "All Systems Operational",
-    link: "https://www.novadrive.space/",
-    githubLink: "https://github.com/kaihere14/Nova_Drive",
+    link: "https://www.boomzo.in/",
+    githubLink: "#",
   },
   {
-    id: "dns-server",
-    name: "Authoritative DNS Server",
-    tagline: "Custom DNS Infrastructure",
+    id: "topgun-automotive",
+    name: "TopGun Automotive",
+    tagline: "Automotive Services Platform",
     description:
-      "A minimal authoritative DNS server built in Node.js with Redis-backed storage and environment-based configuration.",
-    image: "/edge_dns.webp",
-    tech: ["Node.js", "dns2", "Redis", "dotenv"],
+      "A complete automotive services website showcasing premium car care services with an elegant, user-friendly interface.",
+    image: "/topgun-landing.png",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     status: "All Systems Operational",
-    link: "https://dns.pawpick.store/",
-    githubLink: "https://github.com/kaihere14/dns_server",
+    link: "https://www.topgunzauto.com/",
+    githubLink: "#",
   },
   {
-    id: "title-forge",
-    name: "TitleForge",
-    tagline: "AI Content Generator",
+    id: "topgun-softwares",
+    name: "TopGun Softwares",
+    tagline: "Software Solutions Company",
     description:
-      "AI-powered platform for generating high-performing YouTube titles using modern NLP models.",
-    image: "/title_forge.webp",
-    tech: ["React.js", "Node.js", "MongoDB", "Gemini"],
+      "A corporate website for a software development company, featuring modern design and showcasing their portfolio of solutions.",
+    image: "/topgunsoftware.png",
+    tech: ["React", "Next.js", "Tailwind CSS", "GSAP"],
     status: "All Systems Operational",
-    link: "https://www.titleforge.me/",
-    githubLink: "https://github.com/kaihere14/Title-Forge",
-  },
-  {
-    id: "disdrive",
-    name: "DisDrive",
-    tagline: "Discord-Powered Cloud Storage",
-    description:
-      "A full-stack cloud storage system that uses Discord as a backend, featuring JWT auth, file streaming, Discord bot commands, and metadata persistence.",
-    image: "/dis_drive.webp",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Discord.js", "JWT"],
-    status: "All Systems Operational",
-    link: "https://drive.pawpick.store",
-    githubLink: "https://github.com/kaihere14/dis_drive",
-  },
-  {
-    id: "chatx",
-    name: "ChatX",
-    tagline: "Real-time Chat Application",
-    description:
-      "A real-time chat application with group messaging and media sharing using WebSockets.",
-    image: "/chatx.webp",
-    tech: ["React", "Socket.io", "Express.js", "MongoDB"],
-    status: "All Systems Operational",
-    link: "https://chatx-lcy3i.sevalla.app/",
-    githubLink: "https://github.com/kaihere14/ChatX",
-  },
-  {
-    id: "resolve-iq",
-    name: "ResolveIQ",
-    tagline: "Issue Tracking System",
-    description:
-      "An issue tracking platform with structured workflows and role-based access.",
-    image: "/resolve_iq_huhjom.webp",
-    tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
-    status: "All Systems Operational",
-    link: "https://resolve-iq-cqza.vercel.app/",
-    githubLink: "https://github.com/kaihere14/ResolveIQ-",
+    link: "https://topgunsoftwares.com/",
+    githubLink: "#",
   },
 ];
 
@@ -110,11 +74,11 @@ const Projects = () => {
         <div>
           <p className="mb-1 text-sm text-neutral-500">Featured</p>
           <h2 className="text-3xl font-bold text-neutral-900 dark:text-white">
-            Projects
+            Freelance Projects
           </h2>
         </div>
         <Link
-          href="https://github.com/kaihere14"
+          href="https://github.com/rupesh0001-tech"
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center gap-1 text-xs text-neutral-500 dark:text-neutral-400"

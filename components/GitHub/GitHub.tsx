@@ -55,7 +55,9 @@ const GitHub = async () => {
             <p className="text-lg text-neutral-600 dark:text-neutral-400">
               Total:{" "}
               <span className="font-mono font-semibold text-emerald-500">
-                {contributions ? contributions.toLocaleString() : "1,000+"}
+                {contributions
+                  ? contributions.toLocaleString()
+                  : " almost 1,000+"}
               </span>{" "}
               contributions this year
             </p>
@@ -63,7 +65,7 @@ const GitHub = async () => {
 
           {/* GitHub Profile Link */}
           <a
-            href="https://github.com/kaihere14"
+            href="https://github.com/rupesh0001-tech"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-full border border-neutral-300 bg-neutral-100 px-4 py-2 text-sm font-medium text-neutral-700 shadow-[0_4px_0_0_rgba(0,0,0,0.15)] transition-all hover:translate-y-[2px] hover:border-neutral-400 hover:bg-neutral-200 hover:shadow-[0_2px_0_0_rgba(0,0,0,0.15)] active:translate-y-[4px] active:shadow-none dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-300 dark:shadow-[0_4px_0_0_rgba(0,0,0,0.4)] dark:hover:border-neutral-600 dark:hover:bg-neutral-700 dark:hover:shadow-[0_2px_0_0_rgba(0,0,0,0.4)] dark:active:shadow-none"
@@ -85,7 +87,7 @@ const GitHub = async () => {
         </div>
 
         {/* GitHub Calendar */}
-        <GitHubCalendarClient username="kaihere14" />
+        <GitHubCalendarClient username="rupesh0001-tech" />
       </div>
 
       <hr className="mt-15" />

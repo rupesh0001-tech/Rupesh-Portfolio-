@@ -7,7 +7,7 @@ export const title = "Avatar with Online Indicator";
 const ProfileAvatar = () => (
   <div className="relative w-fit">
     <Avatar>
-      <AvatarImage alt="@armanthakur" src="/Logo.webp" />
+      <AvatarImage alt="@rupeshjagtap" src="/Logo.png" />
     </Avatar>
     <ActiveStatus />
   </div>
