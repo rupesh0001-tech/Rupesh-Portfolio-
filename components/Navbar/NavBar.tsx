@@ -32,7 +32,7 @@ const NavBar = () => {
           </Link>
         </div>
       </div>
-      <div className="flex items-center justify-between gap-3">
+      {/* <div className="flex items-center justify-between gap-3">
         <Link
           className="transition-colors hover:text-neutral-700 dark:hover:text-neutral-300"
           target="_blank"
@@ -65,7 +65,7 @@ const NavBar = () => {
             <path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path>
           </svg>
         </Link>
-      </div>
+      </div> */}
       <div>
         <button
           onClick={toggleTheme}
