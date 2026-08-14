@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useTheme } from "@/hooks/ThemeProvider";
 
 export const techStack = [
+  // Languages
   {
     name: "JavaScript",
     icon: "https://skillicons.dev/icons?i=js",
@@ -21,103 +22,121 @@ export const techStack = [
     desc: "Language",
   },
   {
-    name: "React",
+    name: "C++",
+    icon: "https://skillicons.dev/icons?i=cpp",
+    desc: "Language / DSA",
+  },
+
+  // Frontend
+  {
+    name: "React.js",
     icon: "https://skillicons.dev/icons?i=react",
-    desc: "UI Library",
+    desc: "Frontend UI",
   },
   {
     name: "Next.js",
     icon: "https://skillicons.dev/icons?i=next",
-    desc: "Framework",
+    desc: "Full-Stack Framework",
   },
   {
-    name: "Tailwind",
-    icon: "https://skillicons.dev/icons?i=tailwind",
-    desc: "Styling",
+    name: "Redux",
+    icon: "https://skillicons.dev/icons?i=redux",
+    desc: "State Management",
   },
+  {
+    name: "Tailwind CSS",
+    icon: "https://skillicons.dev/icons?i=tailwind",
+    desc: "Styling & Design",
+  },
+
+  // Backend & Runtime
   {
     name: "Node.js",
     icon: "https://skillicons.dev/icons?i=nodejs",
-    desc: "Runtime",
+    desc: "Backend Runtime",
   },
   {
     name: "Express.js",
     icon: "https://skillicons.dev/icons?i=express",
-    desc: "Backend",
-  },
-  {
-    name: "MongoDB",
-    icon: "https://skillicons.dev/icons?i=mongodb",
-    desc: "Database",
-  },
-  {
-    name: "Prisma",
-    icon: "https://skillicons.dev/icons?i=prisma",
-    desc: "ORM",
+    desc: "REST APIs & Backend",
   },
   {
     name: "Bun.js",
     icon: "https://skillicons.dev/icons?i=bun",
-    desc: "Runtime",
+    desc: "Fast JS Runtime",
   },
 
-  // {
-  //   name: "Redis",
-  //   icon: "https://skillicons.dev/icons?i=redis",
-  //   desc: "Caching",
-  // },
-  // {
-  //   name: "Docker",
-  //   icon: "https://skillicons.dev/icons?i=docker",
-  //   desc: "Containerization",
-  // },
-  // {
-  //   name: "Nginx",
-  //   icon: "https://skillicons.dev/icons?i=nginx",
-  //   desc: "Web Server",
-  // },
+  // Databases & Caching
+  {
+    name: "PostgreSQL",
+    icon: "https://skillicons.dev/icons?i=postgres",
+    desc: "Relational Database",
+  },
+  {
+    name: "MongoDB",
+    icon: "https://skillicons.dev/icons?i=mongodb",
+    desc: "NoSQL Database",
+  },
+  {
+    name: "MySQL",
+    icon: "https://skillicons.dev/icons?i=mysql",
+    desc: "Relational Database",
+  },
+  {
+    name: "Redis",
+    icon: "https://skillicons.dev/icons?i=redis",
+    desc: "In-Memory & Caching",
+  },
+  {
+    name: "Prisma",
+    icon: "https://skillicons.dev/icons?i=prisma",
+    desc: "Type-Safe ORM",
+  },
+  {
+    name: "Firebase",
+    icon: "https://skillicons.dev/icons?i=firebase",
+    desc: "Cloud DB & Auth",
+  },
+
+  // AI & GenAI
+  {
+    name: "Google Gemini",
+    icon: "https://cdn.simpleicons.org/googlegemini/white",
+    desc: "Multimodal AI",
+  },
+
+  // Cloud & DevOps
+  {
+    name: "AWS",
+    icon: "https://skillicons.dev/icons?i=aws",
+    desc: "EC2, S3, SES Cloud",
+  },
+  {
+    name: "Docker",
+    icon: "https://skillicons.dev/icons?i=docker",
+    desc: "Containerization",
+  },
+  {
+    name: "Vercel",
+    icon: "https://skillicons.dev/icons?i=vercel",
+    desc: "Deployment & CI/CD",
+  },
+  {
+    name: "Netlify",
+    icon: "https://skillicons.dev/icons?i=netlify",
+    desc: "Deployment",
+  },
+
+  // Tools & Practices
   {
     name: "Git",
     icon: "https://skillicons.dev/icons?i=git",
     desc: "Version Control",
   },
   {
-    name: "C++",
-    icon: "https://cdn.simpleicons.org/cplusplus/white",
-    desc: "Language",
-  },
-  {
-    name: "figma",
-    icon: "https://cdn.simpleicons.org/figma/white",
-    desc: "Language",
-  },
-  // {
-
-  // },
-  {
-    name: "gitHub",
+    name: "GitHub",
     icon: "https://cdn.simpleicons.org/github/white",
-    desc: "Code Hosting",
-  },
-  {
-    name: "Vercel",
-    icon: "https://skillicons.dev/icons?i=vercel",
-    desc: "Deployment",
-  },
-  {
-    name: "Framer Motion",
-    icon: "https://cdn.simpleicons.org/framer/white",
-    desc: "Animations",
-  },
-  {
-    name: "Socket.io",
-    icon: "https://cdn.simpleicons.org/socketdotio/white",
-    desc: "Real-time",
-  },
-  {
-    name: "Linux",
-    icon: "https://skillicons.dev/icons?i=linux",
-    desc: "Operating System",
+    desc: "CI/CD & Hosting",
   },
   {
     name: "Postman",
@@ -125,19 +144,24 @@ export const techStack = [
     desc: "API Testing",
   },
   {
+    name: "Figma",
+    icon: "https://cdn.simpleicons.org/figma/white",
+    desc: "UI/UX Design",
+  },
+  {
+    name: "Framer Motion",
+    icon: "https://cdn.simpleicons.org/framer/white",
+    desc: "Interactive UI",
+  },
+  {
     name: "GSAP",
     icon: "https://cdn.simpleicons.org/greensock/white",
-    desc: "Animations",
+    desc: "Web Animations",
   },
   {
-    name: "Google Gemini",
-    icon: "https://cdn.simpleicons.org/googlegemini/white",
-    desc: "AI API",
-  },
-  {
-    name: "PostgreSQL",
-    icon: "https://skillicons.dev/icons?i=postgres",
-    desc: "Database",
+    name: "Linux",
+    icon: "https://skillicons.dev/icons?i=linux",
+    desc: "Operating System",
   },
 ];
 

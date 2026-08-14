@@ -18,6 +18,48 @@ export type ProjectType = {
 
 const projects: ProjectType[] = [
   {
+    id: "build-for-job",
+    name: "Build For Job",
+    tagline: "AI-Powered SaaS Career Platform",
+    description:
+      "Full-stack SaaS job platform offering AI-powered ATS resume scoring, resume building, portfolio creation, cover letter generation, and customizable PDF exports for 100+ users. Features subscription-tier middleware, Zod validation, Groq AI parsing at 95%+ accuracy, and CI/CD on Vercel.",
+    image: "/buildforjob.png",
+    tech: [
+      "Next.js 16",
+      "Bun",
+      "Express.js",
+      "Prisma",
+      "PostgreSQL",
+      "TypeScript",
+      "Zod",
+    ],
+    status: "All Systems Operational",
+    link: "https://buildforjob.rupeshhh.in/",
+    githubLink: "https://github.com/rupesh0001-tech/builtforjob-be",
+  },
+  {
+    id: "cally",
+    name: "Cally",
+    tagline: "Automated Booking & Scheduling Engine",
+    description:
+      "Automated booking engine supporting 1-on-1 and group scheduling with real-time timezone conversion and 10+ configurable availability rules. Integrated Razorpay 3-step paid bookings with HMAC verification, 4 parallel Redis/BullMQ workers for Google Calendar sync & Resend emails, and analytics in under 2s.",
+    image: "/cally.png",
+    tech: [
+      "React.js",
+      "Express.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "BullMQ",
+      "Clerk",
+      "Razorpay",
+    ],
+    status: "All Systems Operational",
+    link: "https://cally.rupeshhh.in/",
+    githubLink: "https://github.com/rupesh0001-tech/cally",
+  },
+  {
     id: "resume-builder",
     name: "Resume Builder",
     tagline: "Professional Resume Creator",
@@ -74,7 +116,7 @@ const Projects = () => {
         <div>
           <p className="mb-1 text-sm text-neutral-500">Featured</p>
           <h2 className="text-3xl font-bold text-neutral-900 dark:text-white">
-            Freelance Projects
+            Projects & Products
           </h2>
         </div>
         <Link

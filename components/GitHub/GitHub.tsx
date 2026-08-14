@@ -12,7 +12,7 @@ const getGitHubContributions = async (): Promise<number | null> => {
       "https://api.github.com/graphql",
       {
         query: `query {
-          user(login: "kaihere14") {
+          user(login: "rupesh0001-tech") {
             contributionsCollection {
               contributionCalendar {
                 totalContributions
@@ -55,11 +55,9 @@ const GitHub = async () => {
             <p className="text-lg text-neutral-600 dark:text-neutral-400">
               Total:{" "}
               <span className="font-mono font-semibold text-emerald-500">
-                {contributions
-                  ? contributions.toLocaleString()
-                  : " almost 1,000+"}
+                {contributions ? `${contributions.toLocaleString()}+` : "2k+"}
               </span>{" "}
-              contributions this year
+              contributions last year
             </p>
           </div>
 

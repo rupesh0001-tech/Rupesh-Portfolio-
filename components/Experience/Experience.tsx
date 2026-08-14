@@ -2,14 +2,27 @@ import { Briefcase, Calendar, ChevronRight } from "lucide-react";
 
 const experiences = [
   {
-    role: "Full-Stack Developer",
-    company: "COOLCLIQ",
-    period: "2026 - Present",
+    role: "SDE Full-Stack Intern",
+    company: "CoolCliQ",
+    location: "Remote",
+    period: "Jan. 2026 – July 2026",
     highlights: [
-      "Built and deployed multiple full-stack web applications on AWS and cloud platforms",
-      "Implemented JWT-based authentication with access & refresh tokens and role-based flows",
-      "Integrated payments, email services, caching, and secure API workflows in production",
-      "Designed scalable backend architectures with Redis caching and async job handling",
+      {
+        category: "Frontend",
+        text: "Built core UI in React.js and Next.js, increasing user engagement by 35% and cutting navigation time by 25% for 10,000+ daily user interactions.",
+      },
+      {
+        category: "Backend",
+        text: "Designed business logic and REST APIs with Node.js, Express.js, and Prisma; added Redis caching and JWT-based role-based access control (RBAC), reducing API response times to 0.5–1.5s and database load by 60%.",
+      },
+      {
+        category: "DevOps & Quality",
+        text: "Secured 20+ endpoints with authentication/authorization, deployed production apps on AWS through CI/CD pipelines, and wrote unit and integration tests to reduce regressions.",
+      },
+      {
+        category: "Collaboration",
+        text: "Took part in code reviews and pair programming within an Agile team, and worked across TypeScript, Bun, and PostgreSQL on performance optimization initiatives.",
+      },
     ],
   },
 ];
@@ -39,10 +52,14 @@ const Experience = () => {
                 <div className="flex items-center gap-2">
                   <Briefcase size={14} />
                   <p className={`text-sm font-medium`}>{exp.company}</p>
+                  <span className="text-xs text-neutral-400">•</span>
+                  <span className="text-xs text-neutral-500">
+                    {exp.location}
+                  </span>
                 </div>
               </div>
               <span
-                className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium whitespace-nowrap transition-colors group-hover:border-orange-500/30 group-hover:text-orange-500`}
+                className={`flex items-center gap-1.5 rounded-full border border-neutral-300 px-3 py-1.5 text-xs font-medium whitespace-nowrap text-neutral-700 transition-colors dark:border-neutral-700 dark:text-neutral-300`}
               >
                 <Calendar size={12} />
                 {exp.period}
@@ -57,9 +74,14 @@ const Experience = () => {
                 >
                   <ChevronRight
                     size={16}
-                    className="mt-0.5 shrink-0 transition-transform group-hover/item:translate-x-0.5"
+                    className="mt-0.5 shrink-0 text-neutral-400 transition-transform group-hover/item:translate-x-0.5"
                   />
-                  <span className="leading-relaxed">{highlight}</span>
+                  <span className="leading-relaxed text-neutral-700 dark:text-neutral-300">
+                    <strong className="font-semibold text-neutral-900 dark:text-neutral-100">
+                      {highlight.category}:
+                    </strong>{" "}
+                    {highlight.text}
+                  </span>
                 </li>
               ))}
             </ul>

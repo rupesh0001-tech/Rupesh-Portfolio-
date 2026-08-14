@@ -9,17 +9,17 @@ export const stats = [
   },
   {
     label: "GitHub Commits",
-    value: "900+",
+    value: "2k+",
     icon: GitBranch,
   },
   {
     label: "Technologies",
-    value: "12+",
+    value: "25+",
     icon: Cpu,
   },
   {
     label: "Lines of Code",
-    value: "15k+",
+    value: "20k+",
     icon: Code,
   },
 ];
@@ -35,7 +35,7 @@ export const Stats = async () => {
     const res = await axios.post(
       "https://api.github.com/graphql",
       {
-        query: `query { user(login: "kaihere14") { contributionsCollection { totalCommitContributions } } }`,
+        query: `query { user(login: "rupesh0001-tech") { contributionsCollection { totalCommitContributions } } }`,
       },
       {
         headers: { Authorization: `Bearer ${token}` },
@@ -45,7 +45,7 @@ export const Stats = async () => {
     const total =
       res?.data?.data?.user?.contributionsCollection?.totalCommitContributions;
 
-    stats[1].value = total != null ? String(total) : "900+";
+    stats[1].value = total != null ? String(total) : "2k+";
   } catch (err) {
     console.error("GitHub fetch failed:", err);
   }
