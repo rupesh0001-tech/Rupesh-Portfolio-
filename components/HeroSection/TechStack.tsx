@@ -185,7 +185,7 @@ const TechStack = () => {
           Tech Stack & Tools
         </h2>
       </div>
-      <div className="flex w-full flex-wrap justify-evenly gap-3">
+      <div className="flex w-full flex-wrap gap-3">
         {techStack.map((tech) => (
           <div key={tech.name} className="group relative">
             {/* Icon Container */}
