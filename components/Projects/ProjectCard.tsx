@@ -45,7 +45,16 @@ const getTechIcon = (tech: string) => {
 };
 
 const ProjectCard = ({ project }: { project: ProjectType }) => {
-  const { name, description, image, tech, status, link, githubLink } = project;
+  const {
+    name,
+    description,
+    image,
+    tech,
+    status,
+    link,
+    githubLink,
+    isFreelance,
+  } = project;
 
   return (
     <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border bg-neutral-50 transition-all duration-500 ease-out hover:border-neutral-300 hover:bg-neutral-100 dark:bg-neutral-900/50 dark:hover:border-neutral-700 dark:hover:bg-neutral-900">
@@ -59,15 +68,22 @@ const ProjectCard = ({ project }: { project: ProjectType }) => {
           className="h-full w-full transform object-cover transition-all duration-500 group-hover:scale-105"
           style={{ transformOrigin: "center center" }}
         />
+        {isFreelance && (
+          <div className="absolute top-3 left-3 z-10 rounded-full border border-neutral-200/90 bg-white/90 px-2.5 py-0.5 text-[11px] font-medium text-neutral-800 shadow-sm backdrop-blur-md dark:border-neutral-700/90 dark:bg-neutral-900/90 dark:text-neutral-200">
+            Freelance
+          </div>
+        )}
       </div>
 
       {/* Content */}
       <div className="flex flex-1 flex-col p-6">
         {/* Title & Icons */}
         <div className="mb-3 flex items-start justify-between">
-          <h3 className="text-xl font-bold text-neutral-900 transition-colors dark:text-white">
-            {name}
-          </h3>
+          <div className="flex items-center gap-2">
+            <h3 className="text-xl font-bold text-neutral-900 transition-colors dark:text-white">
+              {name}
+            </h3>
+          </div>
           <ProjectsButton githubLink={githubLink} link={link} />
         </div>
 

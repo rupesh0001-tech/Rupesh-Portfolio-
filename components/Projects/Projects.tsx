@@ -14,6 +14,7 @@ export type ProjectType = {
   status: string;
   link: string;
   githubLink: string;
+  isFreelance?: boolean;
 };
 
 const projects: ProjectType[] = [
@@ -70,6 +71,7 @@ const projects: ProjectType[] = [
     status: "All Systems Operational",
     link: "https://rotationmatchnetwork.com/",
     githubLink: "#",
+    isFreelance: true,
   },
   {
     id: "hger",
@@ -82,6 +84,7 @@ const projects: ProjectType[] = [
     status: "All Systems Operational",
     link: "https://hgeroadshow.com/",
     githubLink: "#",
+    isFreelance: true,
   },
   {
     id: "boomzo",
@@ -94,6 +97,7 @@ const projects: ProjectType[] = [
     status: "All Systems Operational",
     link: "https://www.boomzo.in/aligarh",
     githubLink: "#",
+    isFreelance: true,
   },
   {
     id: "topgun-automotive",
@@ -106,6 +110,7 @@ const projects: ProjectType[] = [
     status: "All Systems Operational",
     link: "https://topgunzauto.com/",
     githubLink: "#",
+    isFreelance: true,
   },
   {
     id: "topgun-softwares",
@@ -118,6 +123,7 @@ const projects: ProjectType[] = [
     status: "All Systems Operational",
     link: "https://topgunsoftwares.com/",
     githubLink: "#",
+    isFreelance: true,
   },
   {
     id: "resume-builder",
