@@ -68,23 +68,31 @@ const ProjectCard = ({ project }: { project: ProjectType }) => {
           className="h-full w-full transform object-cover transition-all duration-500 group-hover:scale-105"
           style={{ transformOrigin: "center center" }}
         />
-        {isFreelance && (
-          <div className="absolute top-3 left-3 z-10 rounded-full border border-neutral-200/90 bg-white/90 px-2.5 py-0.5 text-[11px] font-medium text-neutral-800 shadow-sm backdrop-blur-md dark:border-neutral-700/90 dark:bg-neutral-900/90 dark:text-neutral-200">
-            Freelance
-          </div>
-        )}
       </div>
 
       {/* Content */}
       <div className="flex flex-1 flex-col p-6">
-        {/* Title & Icons */}
-        <div className="mb-3 flex items-start justify-between">
-          <div className="flex items-center gap-2">
-            <h3 className="text-xl font-bold text-neutral-900 transition-colors dark:text-white">
-              {name}
-            </h3>
-          </div>
+        {/* Header: Category Badge & Links */}
+        <div className="mb-3 flex items-center justify-between">
+          {isFreelance ? (
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 px-2.5 py-0.5 text-[11px] font-medium text-amber-700 dark:border-amber-400/30 dark:bg-amber-400/10 dark:text-amber-300">
+              <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
+              Freelance Project
+            </span>
+          ) : (
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-sky-500/30 bg-sky-500/10 px-2.5 py-0.5 text-[11px] font-medium text-sky-700 dark:border-sky-400/30 dark:bg-sky-400/10 dark:text-sky-300">
+              <span className="h-1.5 w-1.5 rounded-full bg-sky-500" />
+              Product
+            </span>
+          )}
           <ProjectsButton githubLink={githubLink} link={link} />
+        </div>
+
+        {/* Title */}
+        <div className="mb-2">
+          <h3 className="text-xl font-bold text-neutral-900 transition-colors dark:text-white">
+            {name}
+          </h3>
         </div>
 
         {/* Description */}
