@@ -5,6 +5,8 @@ import { Analytics } from "@vercel/analytics/next";
 
 import FooterBlur from "@/components/Footer/FooterBlur";
 import NavBar from "@/components/Navbar/NavBar";
+import DottedBackground from "@/components/ui/DottedBackground";
+import SmoothScroll from "@/components/ui/SmoothScroll";
 import { ThemeProvider } from "@/hooks/ThemeProvider";
 
 import "./globals.css";
@@ -67,9 +69,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider>
-          <NavBar />
-          {children}
-          <FooterBlur />
+          <SmoothScroll>
+            <DottedBackground />
+            <NavBar />
+            {children}
+            <FooterBlur />
+          </SmoothScroll>
         </ThemeProvider>
         <Analytics />
       </body>

@@ -44,7 +44,7 @@ const Experience = () => {
         {experiences.map((exp, idx) => (
           <div
             key={idx}
-            className={`relative flex flex-col rounded-2xl border p-6 transition-all duration-300 sm:p-8`}
+            className={`relative flex flex-col rounded-2xl border bg-neutral-50/80 p-6 backdrop-blur-xs transition-all duration-300 hover:border-neutral-300 hover:shadow-sm sm:p-8 dark:bg-neutral-900/50 dark:hover:border-neutral-700`}
           >
             <div className="mb-6 flex flex-col items-start justify-between gap-4 sm:flex-row">
               <div>

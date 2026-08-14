@@ -189,13 +189,13 @@ const TechStack = () => {
         {techStack.map((tech) => (
           <div key={tech.name} className="group relative">
             {/* Icon Container */}
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl border bg-neutral-100 dark:bg-neutral-900">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-neutral-200 bg-neutral-100/90 shadow-xs backdrop-blur-xs transition-all duration-200 hover:-translate-y-0.5 hover:scale-105 hover:border-neutral-400 dark:border-neutral-800 dark:bg-neutral-900/80 dark:hover:border-neutral-600">
               <Image
                 src={getIconUrl(tech)}
                 alt={tech.name}
                 width={24}
                 height={24}
-                className="h-6 w-6 rounded-sm"
+                className="h-6 w-6 rounded-sm transition-transform duration-200 group-hover:scale-110"
                 unoptimized
               />
             </div>
