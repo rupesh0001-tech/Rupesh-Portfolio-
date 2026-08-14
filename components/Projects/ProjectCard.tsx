@@ -80,10 +80,7 @@ const ProjectCard = ({ project }: { project: ProjectType }) => {
               Freelance Project
             </span>
           ) : (
-            <span className="inline-flex items-center gap-1.5 rounded-full border border-sky-500/30 bg-sky-500/10 px-2.5 py-0.5 text-[11px] font-medium text-sky-700 dark:border-sky-400/30 dark:bg-sky-400/10 dark:text-sky-300">
-              <span className="h-1.5 w-1.5 rounded-full bg-sky-500" />
-              Product
-            </span>
+            <div />
           )}
           <ProjectsButton githubLink={githubLink} link={link} />
         </div>
