@@ -35,7 +35,7 @@ const AboutMe = () => {
         <div className="shrink-0">
           <div className="flex h-55 w-55 items-center justify-center overflow-hidden rounded-2xl bg-sky-200 dark:bg-amber-300">
             <Image
-              src="Logo.png"
+              src="/Logo.png"
               alt="Rupesh Jagtap Avatar"
               width={220}
               height={220}
