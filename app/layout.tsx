@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/next";
 
 import FooterBlur from "@/components/Footer/FooterBlur";
 import NavBar from "@/components/Navbar/NavBar";
+import GridBackground from "@/components/ui/GridBackground";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import { ThemeProvider } from "@/hooks/ThemeProvider";
 
@@ -69,6 +70,7 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <SmoothScroll>
+            <GridBackground />
             <NavBar />
             {children}
             <FooterBlur />
