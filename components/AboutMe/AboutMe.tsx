@@ -33,13 +33,13 @@ const AboutMe = () => {
       <h2 className="mb-2 text-3xl font-bold">Me</h2>
       <div className="flex flex-col items-center gap-8 rounded-2xl p-6 md:flex-row md:items-start">
         <div className="shrink-0">
-          <div className="flex h-55 w-55 items-center justify-center overflow-hidden rounded-2xl bg-sky-200 dark:bg-amber-300">
+          <div className="flex h-55 w-55 items-center justify-center overflow-hidden rounded-2xl border border-neutral-200 shadow-sm dark:border-neutral-800">
             <Image
               src="/Logo.png"
               alt="Rupesh Jagtap Avatar"
               width={220}
               height={220}
-              className="h-full w-full object-contain"
+              className="h-full w-full object-cover"
               unoptimized
             />
           </div>

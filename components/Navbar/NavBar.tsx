@@ -19,9 +19,16 @@ const NavBar = () => {
       <div className="flex items-center justify-between gap-3">
         <Link
           href="/"
-          className="flex h-12 w-12 cursor-pointer items-center justify-center overflow-hidden rounded-xl border border-white bg-sky-200 transition-all duration-200 hover:scale-[0.9] dark:bg-amber-300"
+          className="flex h-12 w-12 cursor-pointer items-center justify-center overflow-hidden rounded-xl border border-neutral-200 shadow-sm transition-all duration-200 hover:scale-[0.9] dark:border-neutral-800"
         >
-          <Image src="/Logo.png" alt="Logo" width={60} height={60} />
+          <Image
+            src="/Logo.png"
+            alt="Logo"
+            width={48}
+            height={48}
+            className="h-full w-full object-cover"
+            priority
+          />
         </Link>
         <div className="font-md font-sm mt-8 flex gap-4 self-end text-[16px]">
           <Link className="hover:underline" href="/#work">
