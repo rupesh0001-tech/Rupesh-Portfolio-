@@ -1,0 +1,170 @@
+[
+  {
+    "id": "6aefd1c7-6ed2-4442-a704-8af6d5632d83",
+    "key": "about.bio",
+    "value": "I'm a Computer Engineering student passionate about building full-stack web applications and exploring AI-powered solutions. Based in Pune, India, I specialize in creating scalable, user-friendly web applications with strong foundations in DSA.",
+    "label": "About bio",
+    "group": "about",
+    "updatedAt": "2026-10-19T17:43:47.413Z"
+  },
+  {
+    "id": "850ac4bb-dfda-44b4-8ea7-b809ec40fd29",
+    "key": "about.heading",
+    "value": "Me",
+    "label": "About heading",
+    "group": "about",
+    "updatedAt": "2026-10-19T17:43:47.414Z"
+  },
+  {
+    "id": "8c61a0a2-9ebc-4f85-bff4-4e6f6feb4ceb",
+    "key": "about.image",
+    "value": "/Logo.png",
+    "label": "About image",
+    "group": "about",
+    "updatedAt": "2026-10-19T17:43:47.415Z"
+  },
+  {
+    "id": "ad7a9d74-c1f1-43f2-a71c-0138e3886543",
+    "key": "about.name",
+    "value": "Rupesh Jagtap",
+    "label": "About name",
+    "group": "about",
+    "updatedAt": "2026-10-19T17:43:47.415Z"
+  },
+  {
+    "id": "518835bb-a52a-4373-860b-59e28919342b",
+    "key": "experience.eyebrow",
+    "value": "Career Path",
+    "label": "Experience eyebrow",
+    "group": "experience",
+    "updatedAt": "2026-10-19T17:43:47.416Z"
+  },
+  {
+    "id": "787939a7-1656-4f0d-954e-3db84c94342e",
+    "key": "experience.heading",
+    "value": "Experience & Impact",
+    "label": "Experience heading",
+    "group": "experience",
+    "updatedAt": "2026-10-19T17:43:47.416Z"
+  },
+  {
+    "id": "1b7d186c-fe02-4260-b713-1e4cc665d1e7",
+    "key": "footer.email",
+    "value": "rupeshjagtap157@gmail.com",
+    "label": "Footer email",
+    "group": "footer",
+    "updatedAt": "2026-10-19T17:43:47.417Z"
+  },
+  {
+    "id": "53a33974-a119-464a-8d9a-90efa828dcf2",
+    "key": "footer.subtext",
+    "value": "Open to freelance projects and collaborations",
+    "label": "Footer subtext",
+    "group": "footer",
+    "updatedAt": "2026-10-19T17:43:47.417Z"
+  },
+  {
+    "id": "df8640ae-b1d2-4774-934d-516ed270fb9b",
+    "key": "footer.tagline",
+    "value": "Let's build something amazing.",
+    "label": "Footer tagline",
+    "group": "footer",
+    "updatedAt": "2026-10-19T17:43:47.417Z"
+  },
+  {
+    "id": "2eacb186-1e9a-4b4a-948f-3ecebe997db6",
+    "key": "site.url",
+    "value": "https://rupeshhh.in",
+    "label": "Site URL",
+    "group": "general",
+    "updatedAt": "2026-10-19T17:43:47.418Z"
+  },
+  {
+    "id": "868fc0f0-a56d-4224-9002-2e2a27596b3f",
+    "key": "github.username",
+    "value": "rupesh0001-tech",
+    "label": "GitHub username",
+    "group": "hero",
+    "updatedAt": "2026-10-19T17:43:47.418Z"
+  },
+  {
+    "id": "6f177745-17ee-476c-8326-6f31527eb039",
+    "key": "hero.avatar",
+    "value": "/Logo.png",
+    "label": "Avatar",
+    "group": "hero",
+    "updatedAt": "2026-10-19T17:43:47.418Z"
+  },
+  {
+    "id": "53fa43a9-5fe1-42c2-899e-f95018942bff",
+    "key": "hero.bio",
+    "value": "Full-Stack Developer building scalable, high-performance applications with strong development and system design fundamentals.",
+    "label": "Hero bio",
+    "group": "hero",
+    "updatedAt": "2026-10-19T17:43:47.418Z"
+  },
+  {
+    "id": "f0f41c22-bccb-4db4-bed2-763a3264cb54",
+    "key": "hero.name",
+    "value": "Rupesh",
+    "label": "Display name",
+    "group": "hero",
+    "updatedAt": "2026-10-19T17:43:47.419Z"
+  },
+  {
+    "id": "115600fd-329e-49ed-8036-7213e9ec0cee",
+    "key": "hero.roles",
+    "value": "[\"Full-Stack Developer\",\"Backend Developer\",\"Frontend Developer\",\"Designer\",\"Software Developer\",\"DevOps Engineer\"]",
+    "label": "Rotating roles",
+    "group": "hero",
+    "updatedAt": "2026-10-19T17:43:47.419Z"
+  },
+  {
+    "id": "c3ff07cb-3ee3-42bf-8cdb-e9818201188c",
+    "key": "projects.eyebrow",
+    "value": "Featured",
+    "label": "Projects eyebrow",
+    "group": "projects",
+    "updatedAt": "2026-10-19T17:43:47.419Z"
+  },
+  {
+    "id": "de047c24-b99a-48bd-b656-5084dedd7fe0",
+    "key": "projects.githubUrl",
+    "value": "https://github.com/rupesh0001-tech",
+    "label": "GitHub URL",
+    "group": "projects",
+    "updatedAt": "2026-10-19T17:43:47.420Z"
+  },
+  {
+    "id": "99d3f93e-2070-402f-b35c-f733cd57a815",
+    "key": "projects.heading",
+    "value": "Projects & Products",
+    "label": "Projects heading",
+    "group": "projects",
+    "updatedAt": "2026-10-19T17:43:47.420Z"
+  },
+  {
+    "id": "2e7d91d3-c07d-4996-bd22-fc9f9a6fd271",
+    "key": "seo.description",
+    "value": "Full Stack Developer skilled in Fullstack dev with strong foundations in DSA and building scalable, user-friendly web applications.",
+    "label": "SEO description",
+    "group": "seo",
+    "updatedAt": "2026-10-19T17:43:47.420Z"
+  },
+  {
+    "id": "4e797492-e97b-4723-8667-5d533f525aee",
+    "key": "seo.keywords",
+    "value": "[\"Full Stack Developer\",\"Web Developer\",\"React Developer\",\"Next.js\",\"TypeScript\",\"Node.js\",\"Portfolio\",\"Rupesh Jagtap\",\"Bun.js\",\"Hono\"]",
+    "label": "SEO keywords",
+    "group": "seo",
+    "updatedAt": "2026-10-19T17:43:47.421Z"
+  },
+  {
+    "id": "d305286e-661f-4af8-9f86-74d98795fcf0",
+    "key": "seo.title",
+    "value": "Rupesh Jagtap | Full Stack Developer & Web Engineer Portfolio",
+    "label": "SEO title",
+    "group": "seo",
+    "updatedAt": "2026-10-19T17:43:47.421Z"
+  }
+]

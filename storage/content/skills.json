@@ -1,0 +1,512 @@
+[
+  {
+    "name": "JavaScript",
+    "icon": "https://skillicons.dev/icons?i=js",
+    "desc": "Language",
+    "group": "tech-stack",
+    "sortOrder": 0,
+    "id": "612eee96-2417-44cc-8e04-030aac201930",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "8d45370c-074d-4555-9828-ada85c7fc6e8",
+    "name": "react",
+    "icon": "https://skillicons.dev/icons?i=react",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 0,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "https://skillicons.dev/icons?i=ts",
+    "desc": "Language",
+    "group": "tech-stack",
+    "sortOrder": 1,
+    "id": "2420f056-9d8e-4a07-bf85-6af3de8ebdbf",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "28ee52fa-1708-454d-96c5-0a99d0bf3628",
+    "name": "nextjs",
+    "icon": "https://skillicons.dev/icons?i=nextjs",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 1,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Python",
+    "icon": "https://skillicons.dev/icons?i=python",
+    "desc": "Language",
+    "group": "tech-stack",
+    "sortOrder": 2,
+    "id": "9bf69629-7b0e-41d8-a09c-414cc6d1beab",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "013f602d-7955-4055-8309-8ae9986f985c",
+    "name": "js",
+    "icon": "https://skillicons.dev/icons?i=js",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 2,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "C++",
+    "icon": "https://skillicons.dev/icons?i=cpp",
+    "desc": "Language / DSA",
+    "group": "tech-stack",
+    "sortOrder": 3,
+    "id": "353a6df6-5dd4-45b4-9209-452b9a558364",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "f7ab90df-75d5-4648-a7fb-744ffd7a2418",
+    "name": "ts",
+    "icon": "https://skillicons.dev/icons?i=ts",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 3,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "React.js",
+    "icon": "https://skillicons.dev/icons?i=react",
+    "desc": "Frontend UI",
+    "group": "tech-stack",
+    "sortOrder": 4,
+    "id": "3c5626a9-61a1-4f85-bf77-4cc54aa73506",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "2cb9debd-89ea-4663-9439-0cdbda668c77",
+    "name": "nodejs",
+    "icon": "https://skillicons.dev/icons?i=nodejs",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 4,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Next.js",
+    "icon": "https://skillicons.dev/icons?i=next",
+    "desc": "Full-Stack Framework",
+    "group": "tech-stack",
+    "sortOrder": 5,
+    "id": "3f43ea3f-a7f8-4275-9446-b03f8fd2cd69",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "c8d9772f-22ab-4a39-95c7-f5eb97b14932",
+    "name": "express",
+    "icon": "https://skillicons.dev/icons?i=express",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 5,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Redux",
+    "icon": "https://skillicons.dev/icons?i=redux",
+    "desc": "State Management",
+    "group": "tech-stack",
+    "sortOrder": 6,
+    "id": "dfb8f7b5-2e44-4d26-9a4f-49b11825585e",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "0c370a01-18fe-4b8b-bf62-2dd579ea1b02",
+    "name": "bun",
+    "icon": "https://skillicons.dev/icons?i=bun",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 6,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Tailwind CSS",
+    "icon": "https://skillicons.dev/icons?i=tailwind",
+    "desc": "Styling & Design",
+    "group": "tech-stack",
+    "sortOrder": 7,
+    "id": "0dc59ce9-f904-4569-a2f4-236005df4fb7",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "26a53d82-6653-47db-bff4-39c41a720d3a",
+    "name": "postgres",
+    "icon": "https://skillicons.dev/icons?i=postgres",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 7,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Node.js",
+    "icon": "https://skillicons.dev/icons?i=nodejs",
+    "desc": "Backend Runtime",
+    "group": "tech-stack",
+    "sortOrder": 8,
+    "id": "36f1aafb-4633-4800-8ec9-2c8ce1e49d58",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "98832277-5176-459c-93e7-772726b0fc8b",
+    "name": "mongodb",
+    "icon": "https://skillicons.dev/icons?i=mongodb",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 8,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Express.js",
+    "icon": "https://skillicons.dev/icons?i=express",
+    "desc": "REST APIs & Backend",
+    "group": "tech-stack",
+    "sortOrder": 9,
+    "id": "0049e12f-e719-47da-9261-20aa58cd6876",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "e378d994-69d0-413e-b80d-f13b117300b0",
+    "name": "mysql",
+    "icon": "https://skillicons.dev/icons?i=mysql",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 9,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Bun.js",
+    "icon": "https://skillicons.dev/icons?i=bun",
+    "desc": "Fast JS Runtime",
+    "group": "tech-stack",
+    "sortOrder": 10,
+    "id": "55d13bc6-bb54-434c-b530-4ab7384658f1",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "70f41b36-70d5-4a6a-bf5b-d2b13e8d9a83",
+    "name": "redis",
+    "icon": "https://skillicons.dev/icons?i=redis",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 10,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "https://skillicons.dev/icons?i=postgres",
+    "desc": "Relational Database",
+    "group": "tech-stack",
+    "sortOrder": 11,
+    "id": "55db94cf-a2f9-4896-b47f-a4b9319c883e",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "488e45c0-6feb-4bde-b25b-100d865fed74",
+    "name": "prisma",
+    "icon": "https://skillicons.dev/icons?i=prisma",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 11,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "https://skillicons.dev/icons?i=mongodb",
+    "desc": "NoSQL Database",
+    "group": "tech-stack",
+    "sortOrder": 12,
+    "id": "4fa624e8-2936-469f-a30c-dde2bd79ebf7",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "108024d3-b8ad-4796-91c2-57566cd01c06",
+    "name": "firebase",
+    "icon": "https://skillicons.dev/icons?i=firebase",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 12,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "MySQL",
+    "icon": "https://skillicons.dev/icons?i=mysql",
+    "desc": "Relational Database",
+    "group": "tech-stack",
+    "sortOrder": 13,
+    "id": "628e5b31-a33f-4b5f-b579-ef15d920abc9",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "93f9724c-54a4-4d71-a47a-7811765a03a0",
+    "name": "redux",
+    "icon": "https://skillicons.dev/icons?i=redux",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 13,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Redis",
+    "icon": "https://skillicons.dev/icons?i=redis",
+    "desc": "In-Memory & Caching",
+    "group": "tech-stack",
+    "sortOrder": 14,
+    "id": "320204b2-1871-44e4-a546-af8b1ad0c87a",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "14d46bb0-3b46-4101-9dd7-cf1a8c9030dd",
+    "name": "tailwind",
+    "icon": "https://skillicons.dev/icons?i=tailwind",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 14,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Prisma",
+    "icon": "https://skillicons.dev/icons?i=prisma",
+    "desc": "Type-Safe ORM",
+    "group": "tech-stack",
+    "sortOrder": 15,
+    "id": "99bbc21e-abc0-461a-a098-5a6af1058d98",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "972a7c57-0d6c-4747-9072-6cb4d5d017b4",
+    "name": "aws",
+    "icon": "https://skillicons.dev/icons?i=aws",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 15,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Firebase",
+    "icon": "https://skillicons.dev/icons?i=firebase",
+    "desc": "Cloud DB & Auth",
+    "group": "tech-stack",
+    "sortOrder": 16,
+    "id": "bbdaaf2c-bdad-45a2-8262-e9f4123cc742",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "6de342c8-b273-437a-8cbe-c6036af1c43f",
+    "name": "docker",
+    "icon": "https://skillicons.dev/icons?i=docker",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 16,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Google Gemini",
+    "icon": "https://cdn.simpleicons.org/googlegemini/white",
+    "desc": "Multimodal AI",
+    "group": "tech-stack",
+    "sortOrder": 17,
+    "id": "84508421-5781-4bcb-8d0c-a77296f01384",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "b1847789-87a6-44f5-b8d9-3aa1447bc606",
+    "name": "vercel",
+    "icon": "https://skillicons.dev/icons?i=vercel",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 17,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "AWS",
+    "icon": "https://skillicons.dev/icons?i=aws",
+    "desc": "EC2, S3, SES Cloud",
+    "group": "tech-stack",
+    "sortOrder": 18,
+    "id": "e3e9f0f9-3382-4022-8a3d-5ea8a95e0334",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "6279ca53-ee7f-4b82-a8dd-077176ff57e1",
+    "name": "cpp",
+    "icon": "https://skillicons.dev/icons?i=cpp",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 18,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Docker",
+    "icon": "https://skillicons.dev/icons?i=docker",
+    "desc": "Containerization",
+    "group": "tech-stack",
+    "sortOrder": 19,
+    "id": "3a0a708f-0fa7-4ecb-a15f-53362e6bb7b9",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "7e7fb49e-82ec-4e0a-b991-4529a11c8511",
+    "name": "python",
+    "icon": "https://skillicons.dev/icons?i=python",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 19,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Vercel",
+    "icon": "https://skillicons.dev/icons?i=vercel",
+    "desc": "Deployment & CI/CD",
+    "group": "tech-stack",
+    "sortOrder": 20,
+    "id": "aec88246-62de-4aed-9d0f-0377eb366a71",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "5cce2ddf-39c9-42da-bc60-c0ad614a9b83",
+    "name": "git",
+    "icon": "https://skillicons.dev/icons?i=git",
+    "desc": "",
+    "group": "about",
+    "sortOrder": 20,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Netlify",
+    "icon": "https://skillicons.dev/icons?i=netlify",
+    "desc": "Deployment",
+    "group": "tech-stack",
+    "sortOrder": 21,
+    "id": "5a80f43f-2df2-41cc-850c-55950932d600",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Git",
+    "icon": "https://skillicons.dev/icons?i=git",
+    "desc": "Version Control",
+    "group": "tech-stack",
+    "sortOrder": 22,
+    "id": "c1700cd1-dc01-412a-9a6d-62b938629a2b",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://cdn.simpleicons.org/github/white",
+    "desc": "CI/CD & Hosting",
+    "group": "tech-stack",
+    "sortOrder": 23,
+    "id": "d6a30e1d-80a6-482d-a30d-47c2871710f1",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Postman",
+    "icon": "https://skillicons.dev/icons?i=postman",
+    "desc": "API Testing",
+    "group": "tech-stack",
+    "sortOrder": 24,
+    "id": "90cd6fc0-5013-4a48-b1a1-8b6053bba36b",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Figma",
+    "icon": "https://cdn.simpleicons.org/figma/white",
+    "desc": "UI/UX Design",
+    "group": "tech-stack",
+    "sortOrder": 25,
+    "id": "daf7b28c-903a-4c00-9cab-a5036423826f",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Framer Motion",
+    "icon": "https://cdn.simpleicons.org/framer/white",
+    "desc": "Interactive UI",
+    "group": "tech-stack",
+    "sortOrder": 26,
+    "id": "394317a3-1b28-49f8-94de-bbaf850aad26",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "GSAP",
+    "icon": "https://cdn.simpleicons.org/greensock/white",
+    "desc": "Web Animations",
+    "group": "tech-stack",
+    "sortOrder": 27,
+    "id": "d89b6773-4feb-402a-86f9-370baf1ea109",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "name": "Linux",
+    "icon": "https://skillicons.dev/icons?i=linux",
+    "desc": "Operating System",
+    "group": "tech-stack",
+    "sortOrder": 28,
+    "id": "b4b7d04e-d1f1-43f5-aa8d-0e33151a6c36",
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "94fdd317-b41f-47c2-93dc-42ff15689cc6",
+    "name": "Supabase",
+    "icon": "https://skillicons.dev/icons?i=supabase",
+    "desc": "",
+    "group": "tech-stack",
+    "sortOrder": 29,
+    "createdAt": "2026-10-19T17:40:58.318Z",
+    "updatedAt": "2026-10-19T17:40:58.318Z"
+  }
+]

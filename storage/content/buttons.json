@@ -1,0 +1,24 @@
+[
+  {
+    "id": "f48fdf85-fb59-4f49-bc99-31f69e53cb6b",
+    "label": "Hire Me",
+    "href": "https://calendly.com/rupeshcoding01/30min",
+    "variant": "primary",
+    "icon": "Send",
+    "location": "hero",
+    "sortOrder": 0,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "9f0541dc-a201-48fb-a4aa-82f6460e117c",
+    "label": "Get in touch",
+    "href": "mailto:rupeshjagtap157@gmail.com",
+    "variant": "secondary",
+    "icon": "Send",
+    "location": "hero",
+    "sortOrder": 1,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  }
+]

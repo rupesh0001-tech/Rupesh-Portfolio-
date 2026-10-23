@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3a7895cd-90db-40f3-9d85-e2aab171359a",
+    "platform": "x",
+    "url": "https://x.com/rupesh248000",
+    "iconKey": "x",
+    "sortOrder": 0,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "d8dc3410-d5e3-46f8-a998-099ec1ab8ed9",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/in/rupeshjagtap",
+    "iconKey": "linkedin",
+    "sortOrder": 1,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "f8d98af0-cec0-4173-a30f-6a12500f5c38",
+    "platform": "github",
+    "url": "https://github.com/rupesh0001-tech",
+    "iconKey": "github",
+    "sortOrder": 3,
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "b6d235c7-919b-4dc7-8717-8de3c22ed932",
+    "platform": "github",
+    "url": "https://github.com/rupesh0001-tech",
+    "iconKey": "github",
+    "sortOrder": 3,
+    "createdAt": "2026-10-19T17:42:54.639Z",
+    "updatedAt": "2026-10-19T17:42:54.639Z"
+  }
+]

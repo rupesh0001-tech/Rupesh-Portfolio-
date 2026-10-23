@@ -1,0 +1,76 @@
+[
+  {
+    "id": "8cd08708-2429-4af2-8c62-3d557245ac62",
+    "role": "Software Engineer Intern",
+    "company": "EcoMeal",
+    "location": "Remote",
+    "period": "Oct. 2026 – Present",
+    "logo": "/ecomeal.png",
+    "sortOrder": 0,
+    "highlights": [
+      {
+        "id": "23d6b31b-16d9-4a97-bee4-a6aebe9b988a",
+        "category": "Full-Stack Development",
+        "text": "Developing scalable web applications and core features across the stack using React, TypeScript, Node.js, and PostgreSQL for meal ordering and management workflows.",
+        "sortOrder": 0
+      },
+      {
+        "id": "fb0772b8-6cdd-499c-ad81-4a271820f125",
+        "category": "Backend & APIs",
+        "text": "Building robust RESTful API endpoints and backend services, implementing authentication, business logic validation, and optimizing database queries for high reliability.",
+        "sortOrder": 1
+      },
+      {
+        "id": "98f60260-7c55-4afa-b37b-8551e3d34fe0",
+        "category": "Frontend Architecture",
+        "text": "Crafting intuitive, responsive user interfaces and modular dashboard components, ensuring fast page load times and seamless user experience.",
+        "sortOrder": 2
+      },
+      {
+        "id": "234f8665-65c9-42d3-966e-61918e5089fe",
+        "category": "Engineering & Quality",
+        "text": "Writing clean, maintainable code, conducting testing, and collaborating with cross-functional team members in an Agile environment to deliver product features.",
+        "sortOrder": 3
+      }
+    ],
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  },
+  {
+    "id": "b6039ca7-889f-4938-aaa7-e395e7d3b5eb",
+    "role": "Software Engineer Intern",
+    "company": "CoolCliQ",
+    "location": "Remote",
+    "period": "Jan. 2026 – July 2026",
+    "logo": "/coolcliq.png",
+    "sortOrder": 1,
+    "highlights": [
+      {
+        "id": "e271469d-dbc3-4a06-b1da-834f75eea00d",
+        "category": "Frontend",
+        "text": "Built core UI in React.js and Next.js, increasing user engagement by 35% and cutting navigation time by 25% for 10,000+ daily user interactions.",
+        "sortOrder": 0
+      },
+      {
+        "id": "48519b53-b6e9-44c3-99eb-c581f73af716",
+        "category": "Backend",
+        "text": "Designed business logic and REST APIs with Node.js, Express.js, and Prisma; added Redis caching and JWT-based role-based access control (RBAC), reducing API response times to 0.5–1.5s and database load by 60%.",
+        "sortOrder": 1
+      },
+      {
+        "id": "386fcfe8-d7e4-49fe-b501-dc83ffec2a64",
+        "category": "DevOps & Quality",
+        "text": "Secured 20+ endpoints with authentication/authorization, deployed production apps on AWS through CI/CD pipelines, and wrote unit and integration tests to reduce regressions.",
+        "sortOrder": 2
+      },
+      {
+        "id": "9bf985c5-b4fe-4ba6-a86b-3f18bd4ac39e",
+        "category": "Collaboration",
+        "text": "Took part in code reviews and pair programming within an Agile team, and worked across TypeScript, Bun, and PostgreSQL on performance optimization initiatives.",
+        "sortOrder": 3
+      }
+    ],
+    "createdAt": "2026-10-19T13:27:32.458Z",
+    "updatedAt": "2026-10-19T13:27:32.458Z"
+  }
+]
