@@ -10,6 +10,9 @@ export function resolveStorageRoot(fromCwd = process.cwd()): string {
     join(fromCwd, "..", "..", "storage"),
     join(fromCwd, "..", "storage"),
     join(fromCwd, "..", "..", "..", "storage"),
+    join(__dirname, "..", "..", "storage"),
+    join(__dirname, "..", "..", "..", "storage"),
+    join(__dirname, "..", "..", "..", "..", "storage"),
   ];
 
   for (const dir of candidates) {

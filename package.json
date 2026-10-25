@@ -10,6 +10,8 @@
     "dev:web": "turbo run dev --filter=@repo/web",
     "dev:admin": "turbo run dev --filter=@repo/admin",
     "build": "turbo run build",
+    "build:web": "turbo run build --filter=@repo/web",
+    "build:admin": "turbo run build --filter=@repo/admin",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,mdx,css}\"",
     "check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,mdx,css}\"",

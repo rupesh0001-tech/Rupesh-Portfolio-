@@ -1,12 +1,17 @@
 import type { NextConfig } from "next";
 
-import { join } from "node:path";
+import { resolve } from "node:path";
+
+const projectRoot = resolve(__dirname, "../..");
 
 const nextConfig: NextConfig = {
-  outputFileTracingRoot: join(__dirname, "../../"),
+  outputFileTracingRoot: projectRoot,
+  outputFileTracingIncludes: {
+    "/**": ["../../storage/**/*"],
+  },
   transpilePackages: ["@repo/content"],
   turbopack: {
-    root: join(__dirname, "../.."),
+    root: projectRoot,
   },
   images: {
     remotePatterns: [

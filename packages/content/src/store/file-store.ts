@@ -12,8 +12,12 @@ import { collectionPath, type ContentCollection, contentDir } from "./paths";
 
 function ensureDir(filePath: string) {
   const dir = dirname(filePath);
-  if (!existsSync(dir)) {
-    mkdirSync(dir, { recursive: true });
+  try {
+    if (!existsSync(dir)) {
+      mkdirSync(dir, { recursive: true });
+    }
+  } catch {
+    // Read-only filesystem on serverless platforms
   }
 }
 
@@ -30,7 +34,6 @@ export function writeJson<T>(filePath: string, data: T): void {
 
 export function readJson<T>(filePath: string, fallback: T): T {
   if (!existsSync(filePath)) {
-    writeJson(filePath, fallback);
     return fallback;
   }
 
@@ -57,8 +60,12 @@ export function writeCollection<T>(
 }
 
 export function ensureContentStore(): void {
-  if (!existsSync(contentDir())) {
-    mkdirSync(contentDir(), { recursive: true });
+  try {
+    if (!existsSync(contentDir())) {
+      mkdirSync(contentDir(), { recursive: true });
+    }
+  } catch {
+    // Read-only filesystem on serverless platforms
   }
 }
 
